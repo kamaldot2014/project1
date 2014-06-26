@@ -1,0 +1,36 @@
+@import url("/shared/global.css");
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333333; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+navhover {
+  text-decoration: underline; }
+
+body.home .media-unit {
+  border: 1px solid #ccc;
+  background-color: #fff; }
+  body.home .media-unit .right {
+    border-left: 1px solid #ccc; }
+    body.home .media-unit .right h1 {
+      font-size: 24px; }
+
+body.home .media-unit {
+  border: 1px solid #ccc;
+  background-color: #fff; }
+body.home .right {
+  border-left: 1px solid #ccc; }
+body.home h1 {
+  font-size: 24px; }
+
+h1 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 50px 5px rgba(0, 0, 0, 0.2), 0 0 120px 5px rgba(0, 0, 0, 0.2); }

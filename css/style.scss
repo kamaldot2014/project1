@@ -1,0 +1,61 @@
+@import url('/shared/global.css');
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  
+  &hover{
+	text-decoration:underline;  
+  }
+}
+
+body.home {
+  .media-unit {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    .right {
+      border-left: 1px solid #ccc;
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+
+body.home {
+  .media-unit {
+    border: 1px solid #ccc;
+    background-color: #fff;
+	}
+    .right {
+      border-left: 1px solid #ccc;
+	  }
+      h1 {
+        font-size: 24px;
+      }
+}
+
+
+h1{
+box-shadow:  0 0 10px rgba(0, 0, 0, 0.3), 0 0 50px 5px rgba(0, 0, 0, 0.2), 0 0 120px 5px rgba(0, 0, 0, 0.2);
+}
